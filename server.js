@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 
 // In-memory “database”
 let todos = [
-  { id: 1, task: 'Create an app', done: false },
-  { id: 2, task: 'Test that app',    done: false }
+  { id: 1, task: 'Create an app', done: true },
+  { id: 2, task: 'Test that app',    done: true }
 ];
 
 // List all todos
